@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+.brand__header {
+  font-family: 'Great Vibes', cursive;
+  font-weight: normal;
+  font-size: 60px;
+  text-align: center;
+}
+
+.content {
+  border: 3px solid black;
+}
+
+.row {
+  display: flex;
+  align-items: stretch;
+}
+
+.half {
+  width: 50%;
+}
+
+.quarter {
+  width: 25%;
+}
+
+.three-quarters {
+  width: 75%;
+}
+
+.news-article {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.news-article__title {
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.news-article__content {
+  line-height: 1.5;
+}
+
+.news-article__image {
+  width: 100%;
+}
+
+.other-sections {
+  list-style: none;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.site-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.site-section__link {
+  text-decoration: none;
+  font-size: 30px;
+  color: #666;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 30px;
+}
+
+.site-section__link:hover {
+  text-decoration: underline;
+}
+
+.site-section-politics {
+  background-color: #ffeaa7;
+}
+
+.site-section-tech {
+  background-color: #81ecec;
+}
+
+.site-section-local {
+  background-color: #55efc4;
+}
+
+.site-section-opinion {
+  background-color: #74b9ff;
+}
+
+.site-section-sports {
+  background-color: #a29bfe;
+}
